@@ -2,7 +2,14 @@
 <html>
  <head>
   <title>Ejercicio con WebWorkers</title>
-
+  <style type="text/css" media="screen">
+   h4,h5{
+    font-style: oblique;
+    text-align: center;
+   }
+   h4{color: #162148;}
+   h5{color: grey;}
+  </style>
   <script>
     function buscarPrimos() {
       document.getElementById('result').innerHTML = "";
@@ -21,6 +28,8 @@
   </script>
  </head>
  <body>
+  <h4> Ejercicio 5.7.13 WebWorkers </h4>
+  <h5> Calculo de los números primos hasta el valor que intoduzcas, implementa un webworker para que el cálculo de los primos se realice en background y el interfaz no pierda responsividad.</h5>
   <form id="formulario" action="" method="POST">
   Numero: <input type="text" name="input">
   </form>
